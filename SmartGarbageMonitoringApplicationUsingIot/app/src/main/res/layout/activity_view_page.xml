@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/patientNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Garbage Bin"
+                android:textSize="25dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:weightSum="2">
+
+
+
+            <Button
+                android:id="@+id/searchMedicineBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="SGMA001 - Street 1"
+                android:textAlignment="center"
+                android:textSize="20dp"
+
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:weightSum="2">
+
+
+            <Button
+                android:id="@+id/street2Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="SGMA002 - Street 2"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+
+            android:weightSum="2">
+
+
+            <Button
+                android:id="@+id/street3Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="SGMA003 - Street 3"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:weightSum="2">
+
+
+            <Button
+                android:id="@+id/street4Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="SGMA003 - Street 3"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:padding="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
